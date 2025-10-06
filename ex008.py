@@ -1,0 +1,7 @@
+Meters = float(input(": "))
+print(f"Quilometros {(Meters/1000):}km")
+print(f"Hectômetros {(Meters/100):}hm")
+print(f"Decâmetros {(Meters/10)}dam")
+print(f"Decímetro {(Meters*10):.0f}dm")
+print(f"Centímetros {(Meters*100):.0f}cm")
+print(f"Milímetros {Meters*1000:.0f}mm")
