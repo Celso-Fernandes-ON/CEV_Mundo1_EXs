@@ -1,0 +1,5 @@
+completeName = input(": ").strip()
+print(completeName.upper())
+print(completeName.lower())
+print(len(completeName) - completeName.count(" "))
+print(len((completeName.split())[0]))
